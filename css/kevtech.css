@@ -2,10 +2,7 @@
 .bg-dark {
   background-color: #37474F !important;
 }
-.carousel-caption {
-  top: 30%;
-  bottom: auto;
-}
+
 .parallax::before {
   width: 100%;
   height: 100%;
@@ -49,6 +46,58 @@ nav.navbar ul li a {
 nav.navbar ul li a:hover {
   color: #0071bc !important;
 }
+
+
+
+
+
+/*
+* Pruebas
+*/
+
+/* Necessary for full page carousel*/
+html,
+body,
+.view {
+  height: 100%;
+}
+.full-imagen {
+
+  max-width: 40%;
+
+}
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("../img/home/slider/slider_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("../img/home/slider/slider_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../img/home/slider/slider_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 
 /** Secciones **/
 
@@ -103,7 +152,12 @@ section.portafolio::before {
 .seccion.contacto div.contacto-datos ul {
   list-style: none;
 }
-
+.contacto-tarjeta {
+  padding: 20px 0;
+}
+ul.contacto-blanco li p i{
+  color: white;
+}
 /** footer **/
 nav.redes-sociales {
   text-align: center;
@@ -170,22 +224,26 @@ footer div.footer-recursos ul {
   color: white;
 }
 
-footer div.footer-recursos ul li a{
-text-decoration: none;
-color: white;
+footer div.footer-recursos ul li a {
+  text-decoration: none;
+  color: white;
 }
-footer div.footer-recursos ul li a:hover{
+
+footer div.footer-recursos ul li a:hover {
   font-weight: bold;
   color: #0071bc;
-  }
+}
+
 footer div.footer-contacto li {
   padding: 5px 0;
 }
+
 footer div.footer-nosotros {
   color: white;
 }
+
 p.copyright {
-  background-color: #37474F ;
+  background-color: #37474F;
   color: #ffffff;
   padding: 10px 0;
   margin: 20px 0 0 0;
