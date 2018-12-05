@@ -1,0 +1,193 @@
+/** Generales **/
+.bg-dark {
+  background-color: #37474F !important;
+}
+.carousel-caption {
+  top: 30%;
+  bottom: auto;
+}
+.parallax::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
+/** NavBar **/
+
+nav.kevtech-nav {
+  transition: all 1s ease 0s;
+}
+
+@media (max-width: 991.8px) {
+  nav.kevtech-nav {
+    background-color: #343a40 !important;
+  }
+}
+
+nav.kevtech-nav.nav-big {
+  padding: 20px !important;
+}
+
+@media (max-width: 991.8px) {
+  nav.kevtech-nav.nav-big {
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+nav.navbar ul li a {
+  transition: all ease .1s !important;
+}
+
+nav.navbar ul li a:hover {
+  color: #0071bc !important;
+}
+
+/** Secciones **/
+
+section.seccion {
+  padding: 50px 0;
+}
+
+section.seccion div h2 {
+  text-align: center;
+  color: #0071bc;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+/** -- Servicios -- **/
+.servicios {
+  background-color: whitesmoke
+}
+
+.servicios h3 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.servicios div.img-servicio {
+  text-align: center;
+  align-content: center;
+  content: '';
+}
+
+/** -- Portafolio -- **/
+section.portafolio {
+  position: relative;
+  height: auto;
+  color: white;
+}
+
+section.portafolio::before {
+  background-image: url(../img/home/slider/slider_1.jpg);
+  content: "";
+}
+
+/** -- Contacto -- **/
+.seccion.contacto {
+  background-color: whitesmoke;
+}
+
+.seccion.contacto div.contacto-datos i {
+  font-size: 1.5em;
+}
+
+.seccion.contacto div.contacto-datos ul {
+  list-style: none;
+}
+
+/** footer **/
+nav.redes-sociales {
+  text-align: center;
+}
+
+nav.redes-sociales a {
+  color: white;
+  font-size: 2em;
+  margin-right: 20px;
+  transition: all ease .5s;
+}
+
+nav.redes-sociales a:hover {
+  color: #0071bc;
+}
+
+nav.redes-sociales a:last-child {
+  margin-right: 0;
+}
+
+footer.site-footer {
+  background-color: #263238;
+  padding-top: 40px;
+}
+
+footer .contenedor>div {
+  color: #ffffff;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+footer h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+footer h3 span {
+  color: #0071bc;
+}
+
+footer .ultimos-tweets li {
+  margin-bottom: 10px;
+}
+
+footer nav.redes-sociales {
+  text-align: left;
+}
+
+footer div.footer-contacto {
+  color: white;
+}
+
+footer div.footer-contacto i {
+  font-size: 1.4em;
+}
+
+footer div.footer-contacto ul {
+  list-style: none;
+}
+
+footer div.footer-recursos ul {
+  list-style: none;
+  color: white;
+}
+
+footer div.footer-recursos ul li a{
+text-decoration: none;
+color: white;
+}
+footer div.footer-recursos ul li a:hover{
+  font-weight: bold;
+  color: #0071bc;
+  }
+footer div.footer-contacto li {
+  padding: 5px 0;
+}
+footer div.footer-nosotros {
+  color: white;
+}
+p.copyright {
+  background-color: #37474F ;
+  color: #ffffff;
+  padding: 10px 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
