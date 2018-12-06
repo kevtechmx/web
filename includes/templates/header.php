@@ -19,6 +19,11 @@
     <!--Font Awesome CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+<!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c9be6162-00a7-4f29-a424-66a396016a59"> </script>
+<!-- End of  Zendesk Widget script -->
+
+
 <?php 
 $archivo = basename($_SERVER['PHP_SELF']);
 $pagina = str_replace(".php", "", $archivo);
